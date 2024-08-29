@@ -5,7 +5,6 @@ public class Fibonacci {
 		System.out.println(new Fibonacci().findNthFib(nthFib));
 	}
 	
-//bug: fibonacci should start at 0, it currently starts at 1.
 	private int findNthFib(int nthFib) {
 		int currentFib = 1;
 		int prevFib = 0;
