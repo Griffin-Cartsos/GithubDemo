@@ -202,6 +202,7 @@
           <!-- ^ Sets the number of spaces per indentation level -->
     <property name="tabWidth" value="2"/>
           <!-- ^ sets tab length -->
+    <property name="forceStrictCondition" value="true"/>
     </module>
 
     
