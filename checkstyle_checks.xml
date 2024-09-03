@@ -196,12 +196,4 @@
 
             
   </module>  
-
-    <!-- These are modules that I added -->
-          <module name="Regexp">
-              <property name="format" value="[a-zA-Z]"/>
-              <property name="message" value="Letters are not allowed."/>
-          </module>
-                    <!-- ^ makes the check fail on purpose -->
-          
 </module>
