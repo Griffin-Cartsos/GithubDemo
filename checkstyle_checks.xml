@@ -7,8 +7,8 @@
         <!-- Ensures that 'if', 'else', 'for', 'do', and 'while' statements have braces -->
         <module name="NeedBraces">
             <property name="tokens" value="LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE"/>
-            <property name="option" value="alone_or_singleline"/>
             <message key="needBraces" value="{0} construct must use ''{{...}}''s."/>
         </module>
     </module>
 </module>
+
