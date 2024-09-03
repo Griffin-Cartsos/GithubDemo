@@ -193,5 +193,13 @@
       <!-- The check is suppressed in the next line of code after the comment -->
       <property name="influenceFormat" value="1"/>
     </module>
+    
+    // My own modules start here
+
+    <module name="Indentation">
+    <!-- Sets the number of spaces per indentation level -->
+    <property name="basicOffset" value="4"/>
+    </module>
+            
   </module>
 </module>
