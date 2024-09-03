@@ -20,7 +20,7 @@ public class HelloWorld {
 
         // Improperly placed right curly should trigger RightCurly module
         try {
-            System.out.println("Check for right curly position");
+            System.out.println("Check for right curly position!");
         }
         catch (Exception e) {
             e.printStackTrace();
