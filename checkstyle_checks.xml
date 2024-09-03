@@ -194,6 +194,17 @@
       <property name="influenceFormat" value="1"/>
     </module>
 
+    <!-- These are modules that I added -->
+
+            <!-- I made tabs = 2 spaces and each new line be indented by 4 spaces -->
+    <module name="Indentation">
+    <property name="basicOffset" value="4"/>
+          <!-- ^ Sets the number of spaces per indentation level -->
+    <property name="tabWidth" value="2"/>
+          <!-- ^ sets tab length -->
+    </module>
+
+    
 
             
   </module>
