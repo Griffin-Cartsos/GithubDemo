@@ -193,5 +193,18 @@
       <!-- The check is suppressed in the next line of code after the comment -->
       <property name="influenceFormat" value="1"/>
     </module>
+
+          <!-- My added modules: -->
+    <module>
+          <property name="basicOffset" value="4"/>
+          <property name="braceAdjustment" value="0"/>
+          <property name="caseIndent" value="4"/>
+          <property name="lineWrappingIndentation" value="8"/>
+          <property name="tabWidth" value="2"/>
+    </module>
+
+
+
+            
   </module>
 </module>
