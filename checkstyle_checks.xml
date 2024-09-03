@@ -195,18 +195,12 @@
     </module>
 
     <!-- These are modules that I added -->
-
-            <!-- I made tabs = 2 spaces and each new line be indented by 4 spaces -->
-    <module name="Indentation">
-    <property name="basicOffset" value="4"/>
-          <!-- ^ Sets the number of spaces per indentation level -->
-    <property name="tabWidth" value="2"/>
-          <!-- ^ sets tab length -->
-    <property name="forceStrictCondition" value="true"/>
-    </module>
-
-    
+          <module name="Regexp">
+              <property name="format" value="[a-zA-Z]"/>
+              <property name="message" value="Letters are not allowed."/>
+          </module>
+                    <!-- ^ makes the check fail on purpose -->
 
             
-  </module>
+  </module>    
 </module>
