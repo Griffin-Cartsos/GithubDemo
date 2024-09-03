@@ -196,10 +196,6 @@
     
     // My own modules start here
 
-    <module name="Indentation">
-    <!-- Sets the number of spaces per indentation level -->
-    <property name="basicOffset" value="4"/>
-    </module>
             
   </module>
 </module>
